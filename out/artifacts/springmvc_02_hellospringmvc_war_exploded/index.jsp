@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Index-Interface</title>
   </head>
   <body>
-  $END$
+  Hi！Add "/hellomvc" after url to jump！
   </body>
 </html>
