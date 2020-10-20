@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+
+    <script type="text/javascript">
+
+        // JSON是JS对象的字符串表示法，它使用文本表示一个JS对象的信息，本质是一个字符串。
+        // var obj = {a: 'Hello', b: 'World'};         // 这是一个对象，注意键名也是可以使用引号包裹的
+        // var json = '{"a": "Hello", "b": "World"}';  // 这是一个 JSON 字符串，本质是一个字符串
+
+        // 要实现从JSON字符串转换为JS对象，使用JSON.parse()方法：
+        // var obj = JSON.parse('{"a": "Hello", "b": "World"}'); // 结果是 {a: 'Hello', b: 'World'}
+        // 要实现从JS对象转换为JSON字符串，使用 JSON.stringify()方法：
+        // var json = JSON.stringify({a: 'Hello', b: 'World'});  // 结果是 '{"a": "Hello", "b": "World"}'
+
+        // 编写一个JavaScript对象  var在ES6中用let代替
+        let user = {
+            name:"liyang",
+            age:18,
+            gender:"male"
+        }
+        console.log(user);
+
+        console.log("=====1====");
+        // 将js对象转换json字符串
+        let json = JSON.stringify(user);
+        console.log(json);
+
+        console.log("=====2====");
+        // 将json字符串转换为js对象
+        let o = JSON.parse(json);
+        console.log(o);
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>
+
