@@ -176,3 +176,21 @@ public class HelloServlet extends HttpServlet {
 ```
 
 
+
+[Spring5源码解析-Spring中的处理器handlers](https://muyinchen.github.io/2017/08/05/Spring5%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90-Spring%E4%B8%AD%E7%9A%84%E5%A4%84%E7%90%86%E5%99%A8handlers/)
+
+
+
+[SpringMVC介绍之视图解析器ViewResolver](https://developer.aliyun.com/article/459921)
+
+
+
+[Jackson 快速入门](https://segmentfault.com/a/1190000023218408)
+
+
+
+
+
+标签【<script type='text/javascript'>】是什么意思 ？
+
+是说明这一段脚本语言是javascript。 告诉浏览器这一段要按照javascript来解释执行。
